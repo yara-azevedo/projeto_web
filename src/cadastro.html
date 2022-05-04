@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" 
+    content="IE=edge">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="icon" href="..\img\Imagem1.png">
+</head>
+<body>
+    <br>
+
+    <header>
+            <img src="../img/logo.png" alt="heicao" width="300px"> 
+            <ul>
+            <a href="login.html"><li>Login</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+        </ul>
+    </header>
+    
+    <h1 class="titulo"> Cadastro </h1> <br>
+    
+    <div class="principal">
+        
+        <form action = "validaLogin.php" method="post">
+        <br>
+        <table style="width:100%">
+            <tr>
+              <td><p>
+                Nome:<br><br>
+                <input type="text" name="txtnome" placeholder="Nome Sobrenome" class="masked">
+                </p></td>
+              <td> <p>
+                CPF:<br><br>
+                <input type="text" name="txtcpf" placeholder="000.000.000-00">
+                </p></td>
+              <td></td>
+            </tr>
+            <tr>
+                <td><p>
+                    CEP:<br><br>
+                    <input type="text" name="txtcep" placeholder="00000-000">
+                    </p></td>
+                <td> <p>
+                    Telefone:<br><br>
+                    <input type="text" name="txttelefone" placeholder="(00) 00000-0000">
+                    </p></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><p>
+                    Endereço:<br><br>
+                    <input type="text" name="txtendereco" placeholder="Rua exemplo, nº0">
+                    </p></td>
+                <td> <p>
+                    Estado:<br><br>
+                    <input type="text" name="txtestado" placeholder="AAA AAA">
+                    </p></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td> <p>
+                    Senha:<br><br>
+                    <input type="password" name="txtsenha" placeholder="*******">
+                    </p></td>
+                <td> <p>
+                    Confirme a senha:<br><br>
+                    <input type="password" name="txtsenha2" placeholder="*******">
+                    </p></td>
+                <td></td>
+              </tr>
+          </table>
+        <p><br>
+        <input type="submit" value="Cadastrar" >
+        </p>        
+</form><br><br>
+        <p> Já possui uma conta? <a href="login.html" class="link">Clique aqui!</a></p>  
+      
+    </div>
+</body>
+</html>

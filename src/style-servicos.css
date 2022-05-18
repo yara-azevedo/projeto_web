@@ -3,6 +3,11 @@ body{
                         "b b b"
                         "c c c";
     font-family: 'League Spartan', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+      
+      
 }
 li{
   list-style-type: none;

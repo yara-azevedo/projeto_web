@@ -3,13 +3,14 @@
         <link rel="stylesheet" type="text/css" href="style-servicos.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <title>Tela de Serviços</title>
+        <link rel="icon" href="img/icons-servicos/logo-pagina.png">
     </head>
 
     <body>
       <header>
         <nav>
           <ul>
-            <li><a href="#"><img src="icons-servicos\logo.png" width="250px" height="90px"></a></li>
+            <li><a href="#"><img src="img/icons-servicos\logo.png" width="250px" height="90px"></a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
@@ -41,7 +42,7 @@
 
                   <div class="img">
                     <!-- <img src="https://static.thenounproject.com/png/989967-200.png" width="80px" height="80px"> -->
-                    <img src="icons-servicos/dog.png" width="80px" height="80px">
+                    <img src="img/icons-servicos/dog.png" width="80px" height="80px">
                   </div>
 
                   <div class="descricao">
@@ -68,7 +69,7 @@
                 <div class="conteudo">
 
                   <div class="img">
-                    <img src="icons-servicos/pet-house.png" width="80px" height="80px">
+                    <img src="img/icons-servicos/pet-house.png" width="80px" height="80px">
                   </div>
 
                   <div class="descricao">
@@ -92,7 +93,7 @@
                 <div class="conteudo">
 
                   <div class="img">
-                    <img src="icons-servicos/walking-the-dog.png" width="80px" height="80px">
+                    <img src="img/icons-servicos/walking-the-dog.png" width="80px" height="80px">
                   </div>
 
                   <div class="descricao">
@@ -114,7 +115,7 @@
                 <div class="conteudo">
 
                   <div class="img">
-                    <img src="icons-servicos/dog-house.png" width="80px" height="80px">
+                    <img src="img/icons-servicos/dog-house.png" width="80px" height="80px">
                   </div>
 
                   <div class="descricao">
@@ -136,7 +137,7 @@
                 <div class="conteudo">
 
                   <div class="img">
-                    <img src="icons-servicos/veterinarian.png" width="80px" height="80px">
+                    <img src="img/icons-servicos/veterinarian.png" width="80px" height="80px">
                   </div>
 
                   <div class="descricao">
@@ -158,7 +159,7 @@
                 <div class="conteudo">
 
                   <div class="img">
-                    <img src="icons-servicos/hotel.png" width="80px" height="80px">
+                    <img src="img/icons-servicos/hotel.png" width="80px" height="80px">
                   </div>
 
                   <div class="descricao">
@@ -179,7 +180,7 @@
         </div>
       </section>
       <footer>
-        <img src="icons-servicos\canto-esquerdo.png" height="300px" width="600px">
+        <img src="img/icons-servicos\canto-esquerdo.png" height="300px" width="600px">
       </footer>
     </body>
 </html>

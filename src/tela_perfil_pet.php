@@ -4,14 +4,14 @@
         <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <title>Perfil do Pet</title>
-        <link rel="icon" href="img/icons-servicos/logo-pagina.png">
+        <link rel="icon" href="..\img\icons-servicos\logo-pagina.png">
     </head>
 
     <body>
       <header>
         <nav>
           <ul>
-            <li><a href="#"><img src="img\perfil-pet\logo.png" width="250px" height="90px"></a></li>
+            <li><a href="#"><img src="..\img\perfil-pet\logo.png" width="250px" height="90px"></a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
@@ -29,7 +29,7 @@
               <div class="info-geral">
                 <div class="row">
                   <div id="foto-pet" class="col-4">
-                    <img id="foto-perfil" src="img\perfil-pet\foto-petzinho.PNG">
+                    <img id="foto-perfil" src="..\img\perfil-pet\foto-petzinho.PNG">
                   </div>
                   <div id="info-pet" class="col-6">
                     <div class="row">

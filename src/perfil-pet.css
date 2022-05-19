@@ -32,7 +32,7 @@ ul{
 
 header{
   grid-area: a;
-  background-image: url(img/perfil-pet/canto-direito.png);
+  background-image: url(../img/perfil-pet/canto-direito.png);
   background-repeat: no-repeat;
   background-size: 600px 300px;
   background-position: right;
@@ -44,7 +44,7 @@ section{
 }
 footer{
   grid-area: c;
-  background-image: url(img/perfil-pet/canto-esquerdo.png);
+  background-image: url(../img/perfil-pet/canto-esquerdo.png);
   background-size: 600px 300px;
   background-repeat: no-repeat;
   background-position: left;

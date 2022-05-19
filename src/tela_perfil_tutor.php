@@ -3,16 +3,16 @@
         <link rel="stylesheet" type="text/css" href="perfil-tutor.css">
         <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <title>Perfil do Pet</title>
-        <link rel="icon" href="img/perfil-tutor/logo-pagina.png">
+        <title>Perfil do Tutor</title>
+        <link rel="icon" href="../img/perfil-tutor/logo-pagina.png">
     </head>
 
     <body>
       <header>
         <nav>
           <ul>
-            <li><a href="#"><img src="img\perfil-tutor\logo.png" width="250px" height="90px"></a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="#"><img src="..\img\perfil-tutor\logo.png" width="250px" height="90px"></a></li>
+            <li><a href="login.html">Login</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
             <li><a href="#">Serviços</a></li>
@@ -56,7 +56,7 @@
             <div class="perfil-middle">
               <h2 id="titulo">Seu Pet</h2>
               <div id="foto-pet" class="col-4">
-                <span name="foto_pet"><img id="foto-perfil" src="img\perfil-tutor\foto-petzinho.PNG"></span>
+                <span name="foto_pet"><img id="foto-perfil" src="..\img\perfil-tutor\foto-petzinho.PNG"></span>
                 <span name="nome_pet">Pipoca</span>
               </div>
             </div>
@@ -67,7 +67,7 @@
                   <p id="titulo-info">Pesquise pelo nome do pet</p>
                   <div class="pesquisa">
                     <input class="pesquisa" type="text" name="pesquisa_valor"></input>
-                    <img src="img\perfil-tutor\lupa.png" style="height:30px">
+                    <img src="..\img\perfil-tutor\lupa.png" style="height:30px">
                   </div>
                 </div>
                 <div id="table" class="row">

@@ -3,11 +3,6 @@ body{
                         "b b b"
                         "c c c";
     font-family: 'League Spartan', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    
-      
-      
 }
 li{
   list-style-type: none;
@@ -38,7 +33,7 @@ ul{
 
 header{
   grid-area: a;
-  background-image: url(img/icons-servicos/canto-direito.png);
+  background-image: url(../img/icons-servicos/canto-direito.png);
   background-repeat: no-repeat;
   background-size: 600px 300px;
   background-position: right;

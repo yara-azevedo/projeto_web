@@ -11,10 +11,10 @@
         <nav>
           <ul>
             <li><a href="#"><img src="../img/icons-servicos/logo.png" width="250px" height="90px"></a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="login.html">Login</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
-            <li><a href="#">Serviços</a></li>
+            <li><a href="tela_servicos.php">Serviços</a></li>
             <li><a id="login" href="#">Cliente Logado</a></li>
           </ul>
         </nav>

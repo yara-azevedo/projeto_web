@@ -1,0 +1,120 @@
+body{
+    grid-template-areas: "a"
+                        "b"
+                        "c";
+    font-family: 'League Spartan', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#a{
+  margin-left: 80px;
+}
+
+li a{
+  text-decoration: none;
+  color: #555455;
+}
+
+li a:hover{
+  color: #CB6CE6;
+  font-weight: bold;
+}
+#login{
+  color: #FFFFFF;
+}
+
+ul{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-right: 3%;
+}
+nav{
+  grid-area: a;
+  background-color: none;
+  position: relative;
+
+}
+section{
+  grid-area: b;
+  display: grid;
+  grid-template-areas: "a"
+                      "b"
+                      "c"
+                      "d";
+}
+footer{
+  grid-area:c;
+}
+.main{
+  grid-area: a;
+}
+#fundo-direito{
+  position: absolute;
+  top: 0px;
+  right:0;
+  width: 600px;
+  height: 600px;
+}
+.intro{
+  width: 300px;
+  margin-left: 5%;
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+#fundo-esquerdo{
+  width:600px;
+  height:300px;
+}
+.botao-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botao{
+  border-radius: 8px;
+  background-color: #CB6CE6;
+  color: #FFFFFF;
+  width: 150px;
+  height: 40px;
+  border: none;
+  box-shadow: 3px 3px #f2f2f2;
+}
+.botao a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.botao a:hover{
+  color: #FFFFFF;
+}
+
+.botao:hover{
+  background-color: #d992ed;
+}
+.intro-empresa{
+  grid-area: b;
+  background-image: linear-gradient(#0C4271,#A3D4FD);
+}
+.quem-somos{
+  background-color: white;
+  margin: 10%;
+  padding: 3%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 10px;
+}
+#titulo{
+  color: #CB6CE6;
+  margin-top:2%;
+  margin-bottom: 3%;
+}
+.review{
+  grid-area: c;
+  background-image: linear-gradient(#A3D4FD, #86CDE3, #89C0E7, #1B5F9C, #0C4271);
+}

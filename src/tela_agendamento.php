@@ -23,5 +23,5 @@
 	$stmt = $conn->prepare($sql);
 	$stmt->execute();
 
-	header('Location: cadastro_pet.html');
+	header('Location: main.html');
 ?>

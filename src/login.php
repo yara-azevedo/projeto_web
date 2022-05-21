@@ -1,5 +1,9 @@
 <?php
 
+session_start();
+$_SESSION['user'] = $_POST['txtusuario'];
+$_SESSION['senha'] = $_POST['txtsenha'];
+
 require_once '../bd/conectaBD.php';
 
 $nome = $_POST["txtusuario"];
@@ -14,11 +18,12 @@ $senha = $_POST["txtsenha"];
     if($recordSet = $stmt-> fetchAll()){
         $login=true; 
     }
-    if($login){
-        echo "deu";  
-        header("location: main.html");
+    if($login=true){
+        header('Location: main.php');
     }else{
         echo "num deu";
+        
+        echo $senha;
     }
 
 

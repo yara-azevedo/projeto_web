@@ -15,7 +15,6 @@
         "b b b"
         "c c c";
       font-family: 'League Spartan', sans-serif;
-      font-size:20px;
     }
 
     li {
@@ -76,11 +75,12 @@
       border-radius: 30px;
       width: 850px;
       background-color: white;
-      height: 80%;
+      height: 100%;
       padding: 5%;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-areas: "a b"
+      grid-template-areas: "g g"
+        "a b"
         "c d"
         "e f";
       grid-gap: 5%;
@@ -90,9 +90,10 @@
   margin: 10%;
 }*/
     .conteudo-servicos {
-      margin-left: 20%;
-      margin-top: 5%;
+      /* margin-left: 20%;
+      margin-top: 5%; */
       color: #555455;
+      grid-area:g;
     }
 
     .conteudo-servicos h1 {
@@ -229,18 +230,18 @@
   </header>
 
   <section>
-    <div class="conteudo-servicos">
-      <div class="titulo-servicos">
-        <h1>Serviços Oferecidos</h1>
-      </div>
-      <div class="descricao-servicos">
-        <p>Para agendar clique no serviço desejado e siga as instruções.</p>
-      </div>
-    </div>
 
     <div class="mae-bloco">
 
       <div class="bloco">
+        <div class="conteudo-servicos">
+          <div class="titulo-servicos">
+            <h1>Serviços Oferecidos</h1>
+          </div>
+          <div class="descricao-servicos">
+            <p>Para agendar clique no serviço desejado e siga as instruções.</p>
+          </div>
+        </div>
 
         <div class="banho">
 

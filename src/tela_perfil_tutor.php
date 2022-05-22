@@ -15,7 +15,6 @@
         "b b b"
         "c c c";
       font-family: 'League Spartan', sans-serif;
-      font-size:20px;
     }
 
     li {

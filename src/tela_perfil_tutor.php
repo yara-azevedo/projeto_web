@@ -125,6 +125,7 @@
     #titulo {
       color: #CB6CE6;
       margin-bottom: 3%;
+      font-weight: bold;
     }
 
     #titulo-info {
@@ -132,7 +133,11 @@
     }
 
     .botao:hover {
-      background-color: #d992ed;
+      background-color: white;
+      transition: 0.3s all;
+      color: rgb(202, 86, 223);
+      border: 3px solid rgb(202, 86, 223);
+      border-radius: 9px;
     }
 
     .botao {
@@ -211,18 +216,48 @@
             </div>
             <div class="row justify-content-center">
               <div class="col-auto">
-                <button id="titulo-info" class="botao">Atualizar</button>
+                <table style="width:100%">
+                  <tr>
+                    <td>
+                      <p class="options">
+                        <button id="titulo-info" class="botao">Atualizar</button>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="options">
+                        <button id="titulo-info" class="botao">Excluir conta</button>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
         </div>
         <div class="perfil-middle">
-          <h2 id="titulo">Seu Pet</h2>
-          <div id="foto-pet" class="col-4">
-            <span name="foto_pet"><img id="foto-perfil" src="..\img\perfil-tutor\foto-petzinho.PNG"></span>
-            <span name="nome_pet">Pipoca</span>
-          </div>
+          <table >
+            <tr>
+              <td>
+                <p class="options">
+                <h2 id="titulo">Seus Bichanos</h2>
+                </p>
+              </td>
+              <td>
+                <p class="options">
+                  <button id="titulo-info" class="botao">Novo</button>
+                </p>
+              </td>
+            </tr>
+            <td>
+              <div id="foto-pet" class="col-4">
+                <span name="foto_pet"><img id="foto-perfil" src="..\img\A.PNG"></span>
+                <span name="nome_pet">Pipoca</span>
+              </div>
+            </td>
+            </tr>
         </div>
+        </table>
+        <br><br><br><br>
         <div class="perfil-bottom">
           <h2 id="titulo">Histórico de Agendamentos</h2>
           <div class="info-adicional">

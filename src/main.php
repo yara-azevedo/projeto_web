@@ -166,12 +166,10 @@
         <img id="fundo-direito" src="../img/main/contorno-direito.png">
       </div>
       <div class="intro">
-        <p>Suspendisse faucibus vitae justo vel consectetur.
-          Praesent ac magna ac neque ultricies viverra.
-          Suspendisse faucibus vitae justo vel consectetur.
-          Praesent ac magna ac neque ultricies viverra.
-          Suspendisse faucibus vitae justo vel consectetur.
-          Praesent ac magna ac neque ultricies viverra.</p>
+        <p>Precisa de uma consulta com o veterinário? De alguém para passear
+          com o seu cachorro ou cuidar dele enquanto você trabalha?
+          Nós temos a solução!
+          Cadastre-se e agende uma das nossas opções de serviço.</p>
         <div class="botao-container">
           <button id="titulo-info" class="botao"><a href="cadastro_tutor.html">Cadastre-se Já</a></button>
         </div>
@@ -183,15 +181,10 @@
     <div class="intro-empresa">
       <div class="quem-somos">
         <h2 id="titulo">Quem Somos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nam accumsan sollicitudin sem, ac aliquet sem mollis at.
-          Mauris sed ullamcorper ante. Donec varius lobortis tincidunt.
-          Nam eleifend vulputate augue eget consectetur.
-          Sed posuere pretium sodales. Suspendisse lobortis laoreet velit in porta.
-          Aliquam ut semper urna, id dignissim lectus.
-          Fusce efficitur tortor et venenatis vestibulum.
-          Aliquam sollicitudin a odio vitae varius. Cras ac turpis arcu.
-          In id posuere nulla. Pellentesque at posuere nunc. In fringilla tortor id odio vestibulum varius.</p>
+        <p>Somos uma clínica veterinária especializada no atendimento de cachorros e gatos.
+          Oferecemos diversos serviços para te ajudar a cuidar dos seus bichanos da melhor forma.
+          Temos um time preparado, que ama animais, e que vai tratar os seus como se fosse da família.
+          Nossas dependencias são modernas e confortáveis tanto para nossa equipe quanto para os pacientes.</p>
       </div>
     </div>
     <div class="review">
@@ -236,5 +229,4 @@
   <footer>
   </footer>
 </body>
-
 </html>

@@ -266,8 +266,8 @@
         <ul>
           <li><a href="main.php"><img src="..\img\perfil-tutor\logo.png" width="250px" height="90px"></a></li>
           <li><a id="a" href="login.html">Login</a></li>
-          <li><a id="a" href="#">Sobre</a></li>
-          <li><a id="a" href="#">Contato</a></li>
+          <li><a id="a" href="#quem-somos">Sobre</a></li>
+          <li><a id="a" href="#contato">Contato</a></li>
           <li><a id="a" href="tela_servicos.php">Serviços</a></li>
         </ul>
       </nav>
@@ -289,7 +289,7 @@
         <img id="fundo-esquerdo" src="../img/main/contorno-esquerdo.png">
       </div>
     </div>
-    <div class="intro-empresa">
+    <div id="quem-somos" class="intro-empresa">
       <div class="quem-somos">
         <h2 id="titulo">Quem Somos</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -373,7 +373,7 @@
       </div>
   </section>
   <footer>
-    <div class="contato">
+    <div id="contato" class="contato">
       <h2 id="titulo">Onde nos encontrar</h2>
       <div class="row">
         <div class="col-4">

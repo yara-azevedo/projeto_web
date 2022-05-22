@@ -15,6 +15,7 @@
         "b b b"
         "c c c";
       font-family: 'League Spartan', sans-serif;
+      font-size:20px;
     }
 
     li {
@@ -174,10 +175,10 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#"><img src="..\img\perfil-tutor\logo.png" width="250px" height="90px"></a></li>
+        <li><a href="main.php"><img src="..\img\perfil-tutor\logo.png" width="250px" height="90px"></a></li>
         <li><a href="login.html">Login</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="main.php/#quem-somos">Sobre</a></li>
+        <li><a href="main.php/#contato">Contato</a></li>
         <li><a href="tela_servicos.php">Serviços</a></li>
         <li><a id="login" href="#">Cliente Logado</a></li>
       </ul>

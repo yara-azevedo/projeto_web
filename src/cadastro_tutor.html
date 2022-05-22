@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" 
+    <meta http-equiv="X-UA-Compatible"
     content="IE=edge">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,30 +16,54 @@
     <br>
 
     <header>
-        <img src="../img/logo.png" alt="heicao" width="300px"> 
+      <nav>
         <ul>
-       <ul>
-        <a href="login.html">
-            <li>Login</li>
-          </a>
-          <a href="tela_servicos.php">
-            <li>Serviços</li>
-          </a>
-        <a href="#"><li>Sobre</li></a>
-        <a href="#"><li>Contato</li></a>
-    </ul>
+          <li><a href="main.php"><img src="../img/icons-servicos/logo.png" width="250px" height="90px"></a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="main.php/#quem-somos">Sobre</a></li>
+          <li><a href="main.php/#contato">Contato</a></li>
+          <li><a href="tela_servicos.php">Serviços</a></li>
+          <li><a id="login" href="#">Cliente Logado</a></li>
+        </ul>
+      </nav>
 </header>
-   
+
     <style>
         body{
     font-family: 'League Spartan', sans-serif;
+    font-size:20px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("../img/teste.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#0C4271;
-    
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #555455;
+}
+
+li a:hover {
+  color: #CB6CE6;
+  font-weight: bold;
+}
+
+#login {
+  color: #FFFFFF;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3%;
 }
 .principal{
     width: 700px;
@@ -50,22 +74,22 @@
     border: 7px solid rgb(236, 233, 233);
     border-radius: 30px;
     margin: auto;
-    
+
 }
 
-header{
+/* header{
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 10px; 
-   
+    padding-left: 10px;
+
 }
 
 a{
     color: rgb(112, 111, 111);
     font-weight: bold;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 a:hover{
@@ -77,7 +101,7 @@ a:hover{
 li{
     display: inline-block;
     margin: 20px;
-}
+} */
 
 
 input{
@@ -94,7 +118,7 @@ input{
     font-weight:bold;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -104,7 +128,7 @@ form [type="submit"]{
     background-color: rgb(202, 86, 223);
     color: white;
     font-weight: bold;
-    border: 9px;   
+    border: 9px;
     cursor: pointer;
     font-size: 20;
 }
@@ -115,8 +139,8 @@ form [type="submit"]:hover{
     color: rgb(202, 86, 223);
     border: 3px solid rgb(202, 86, 223);
     border-radius: 9px;
-    
-   
+
+
 }
 
 .link{
@@ -125,8 +149,8 @@ form [type="submit"]:hover{
 
 
     </style>
-    
-    
+
+
     <div class="principal">
         <h1 class="titulo"> Cadastro </h1> <br>
         <form action = "cadastro_tutor.php" method="post">
@@ -180,12 +204,12 @@ form [type="submit"]:hover{
           </table>
         <p><br>
         <input type="submit" value="Cadastrar" >
-        </p>        
+        </p>
 </form><br><br>
-        <p> Já possui uma conta? <a href="login.html" class="link">Clique aqui!</a></p>  
-      
+        <p> Já possui uma conta? <a href="login.html" class="link">Clique aqui!</a></p>
+
     </div>
 
-    
+
 </body>
 </html>

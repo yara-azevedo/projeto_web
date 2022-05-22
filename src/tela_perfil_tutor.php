@@ -221,9 +221,15 @@
         </div>
         <div class="perfil-middle">
           <h2 id="titulo">Seu Pet</h2>
-          <div id="foto-pet" class="col-4">
-            <span name="foto_pet"><img id="foto-perfil" src="..\img\perfil-tutor\foto-petzinho.PNG"></span>
-            <span name="nome_pet">Pipoca</span>
+          <div class="row">
+            <div class="col-auto">
+              <span name="foto_pet"><img id="foto-perfil" src="..\img\perfil-tutor\foto-petzinho.PNG"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <span name="nome_pet">Pipoca</span>
+            </div>
           </div>
         </div>
         <div class="perfil-bottom">
@@ -231,8 +237,11 @@
           <div class="info-adicional">
             <div class="row">
               <p id="titulo-info">Pesquise pelo nome do pet</p>
-              <div class="pesquisa">
+
+              <div class="col">
                 <input class="pesquisa" type="text" name="pesquisa_valor"></input>
+              </div>
+              <div class="col">
                 <img src="..\img\perfil-tutor\lupa.png" style="height:30px">
               </div>
             </div>

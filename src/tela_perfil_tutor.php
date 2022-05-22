@@ -176,8 +176,8 @@
       <ul>
         <li><a href="main.php"><img src="..\img\perfil-tutor\logo.png" width="250px" height="90px"></a></li>
         <li><a href="login.html">Login</a></li>
-        <li><a href="main.php/#quem-somos">Sobre</a></li>
-        <li><a href="main.php/#contato">Contato</a></li>
+        <li><a href="main.php#quem-somos">Sobre</a></li>
+        <li><a href="main.php#contato">Contato</a></li>
         <li><a href="tela_servicos.php">Serviços</a></li>
         <li><a id="login" href="#">Cliente Logado</a></li>
       </ul>
@@ -212,6 +212,9 @@
             <div class="row justify-content-center">
               <div class="col-auto">
                 <button id="titulo-info" class="botao">Atualizar</button>
+              </div>
+              <div class="col-auto">
+                <button id="titulo-info" class="botao">Excluir Conta</button>
               </div>
             </div>
           </div>

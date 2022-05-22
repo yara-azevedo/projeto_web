@@ -64,11 +64,16 @@
       grid-template-areas: "a"
         "b"
         "c"
-        "d";
+        "d"
+        "e"
+        "f";
     }
 
     footer {
       grid-area: c;
+      padding-top: 1%;
+      padding-right: 5%;
+      padding-left: 5%;
     }
 
     .main {
@@ -126,12 +131,15 @@
 
     .intro-empresa {
       grid-area: b;
-      background-image: linear-gradient(#0C4271, #A3D4FD);
+      background-image: linear-gradient(#0C4271, #598CB9, #78AAD5);
     }
 
     .quem-somos {
       background-color: white;
-      margin: 10%;
+      margin-top: 5%;
+      margin-left: 19%;
+      margin-right: 19%;
+      margin-bottom: 3%;
       padding: 3%;
       border-top-left-radius: 0;
       border-top-right-radius: 10px;
@@ -144,11 +152,112 @@
       margin-top: 2%;
       margin-bottom: 3%;
     }
-
-    .review {
+    .review-1 {
       grid-area: c;
-      background-image: linear-gradient(#A3D4FD, #86CDE3, #89C0E7, #1B5F9C, #0C4271);
+      background-image: linear-gradient(#78AAD5, #98C4EA,#A3D4FD);
     }
+    .review-2 {
+      grid-area: d;
+      background-image: linear-gradient(#A3D4FD, #86CDE3, #89C0E7);
+    }
+    .review-3 {
+      grid-area: e;
+      background-image: linear-gradient(#89C0E7, #528FC2);
+    }
+    .saiba-mais{
+      grid-area: f;
+      height:100%;
+      /* background-image: linear-gradient(#1B5F9C, #0C4271);
+      background-image: url(../img/main/bottom.png);
+      background-repeat: no-repeat;
+      background-size:  auto; */
+    }
+
+    .blocos{
+      background-color: white;
+      margin-left: 19%;
+      margin-right: 19%;
+      /* padding: 3%; */
+    }
+.bloco-top{
+  background-color: white;
+  margin-left: 19%;
+  margin-right: 19%;
+  border-top-right-radius: 10px;
+}
+.bloco-bottom{
+  background-color: white;
+  margin-left: 19%;
+  margin-right: 19%;
+  border-bottom-left-radius: 10px;
+}
+.bloco{
+  /* border: 1px solid #CCCCCC; */
+  display: flex;
+  /* margin-bottom: 5%; */
+  align-items: center;
+}
+.texto-bloco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+.texto{
+  width: 350px;
+}
+
+#titulo-review{
+  color: #CB6CE6;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding:5%;
+}
+.saibamais-botao {
+  border-radius: 8px;
+  background-color: #CB6CE6;
+  color: #FFFFFF;
+  width: 150px;
+  height: 40px;
+  border: none;
+  /* box-shadow: 3px 3px #f2f2f2; */
+}
+
+.saibamais-botao a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.saibamais-botao a:hover {
+  color: #FFFFFF;
+}
+
+.saiba-mais-botao:hover {
+  background-color: #d992ed;
+}
+.info-saibamais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: linear-gradient(#528FC2,#1B5F9C,#0C4271);
+}
+.texto-saibamais{
+  text-align: center;
+  width: 500px;
+  color:#FFFFFF;
+}
+.foto-saibamais{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/main/bottom.png);
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+#titulo-contato{
+  font-weight: bold;
+}
   </style>
 
   <section>
@@ -194,46 +303,98 @@
           In id posuere nulla. Pellentesque at posuere nunc. In fringilla tortor id odio vestibulum varius.</p>
       </div>
     </div>
-    <div class="review">
-      <h2 id="titulo">O Que Dizem Nossos CLientes</h2>
-      <div class="blocos">
-        <div class="bloco-1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam accumsan sollicitudin sem, ac aliquet sem mollis at.
-            Mauris sed ullamcorper ante. Donec varius lobortis tincidunt.
-            Nam eleifend vulputate augue eget consectetur.
-            Sed posuere pretium sodales. Suspendisse lobortis laoreet velit in porta.
-            Aliquam ut semper urna, id dignissim lectus.
-            Fusce efficitur tortor et venenatis vestibulum.
-            Aliquam sollicitudin a odio vitae varius. Cras ac turpis arcu.
-            In id posuere nulla. Pellentesque at posuere nunc. In fringilla tortor id odio vestibulum varius.</p>
-        </div>
-        <div class="bloco-2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam accumsan sollicitudin sem, ac aliquet sem mollis at.
-            Mauris sed ullamcorper ante. Donec varius lobortis tincidunt.
-            Nam eleifend vulputate augue eget consectetur.
-            Sed posuere pretium sodales. Suspendisse lobortis laoreet velit in porta.
-            Aliquam ut semper urna, id dignissim lectus.
-            Fusce efficitur tortor et venenatis vestibulum.
-            Aliquam sollicitudin a odio vitae varius. Cras ac turpis arcu.
-            In id posuere nulla. Pellentesque at posuere nunc. In fringilla tortor id odio vestibulum varius.</p>
-        </div>
-        <div class="bloco-3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nam accumsan sollicitudin sem, ac aliquet sem mollis at.
-            Mauris sed ullamcorper ante. Donec varius lobortis tincidunt.
-            Nam eleifend vulputate augue eget consectetur.
-            Sed posuere pretium sodales. Suspendisse lobortis laoreet velit in porta.
-            Aliquam ut semper urna, id dignissim lectus.
-            Fusce efficitur tortor et venenatis vestibulum.
-            Aliquam sollicitudin a odio vitae varius. Cras ac turpis arcu.
-            In id posuere nulla. Pellentesque at posuere nunc. In fringilla tortor id odio vestibulum varius.</p>
+    <div class="review-1">
+      <div class="bloco-top">
+        <h2 id="titulo-review">O Que Dizem Nossos CLientes</h2>
+        <div class="bloco">
+          <div class="texto-bloco">
+            <div class="texto">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nam accumsan sollicitudin sem, ac aliquet sem mollis at. Mauris sed ullamcorper ante.
+                <br>
+                <br>
+                José Lorêncio - 5 Anos
+                Pet do Camilo</p>
+            </div>
+          </div>
+          <div class="img-bloco">
+            <img src="../img/main/cat.jpg" style="border-radius: 50%;height: 300px;width: 300px;">
+          </div>
         </div>
       </div>
     </div>
+    <div class="review-2">
+        <div class="blocos">
+          <div class="bloco">
+            <div class="img-bloco">
+              <img src="../img/main/doguinho-1.jpg" style="border-radius: 50%;height: 300px;width: 300px;">
+            </div>
+            <div class="texto-bloco">
+              <div class="texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nam accumsan sollicitudin sem, ac aliquet sem mollis at. Mauris sed ullamcorper ante.
+                  <br>
+                  <br>
+                  Paulo André e Scooby - 1 ano e 2 Anos
+                  Pets do Tadeu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review-3">
+        <div class="bloco-bottom">
+          <div class="bloco">
+            <div class="texto-bloco">
+              <div class="texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nam accumsan sollicitudin sem, ac aliquet sem mollis at. Mauris sed ullamcorper ante.
+                  <br>
+                  <br>
+                  Chico - 1 ano e 2 mese
+                  Pet da Joana</p>
+              </div>
+            </div>
+            <div class="img-bloco">
+              <img src="../img/main/doguinho-2.jpg" style="border-radius: 50%;height: 300px;width: 300px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="saiba-mais">
+        <div class="info-saibamais">
+          <div class="texto-saibamais">
+            <h2>Conheça os serviços oferecidos pela equipe Heicão</h2>
+          </div>
+        </div>
+        <div class="foto-saibamais">
+              <button id="titulo-info" class="saibamais-botao"><a href="tela_servicos.php">Saiba Mais</a></button>
+        </div>
+      </div>
   </section>
   <footer>
+    <div class="contato">
+      <h2 id="titulo">Onde nos encontrar</h2>
+      <div class="row">
+        <div class="col-4">
+          <p id="titulo-contato">Contato<p>
+          <p>alunosbcc@fmu.com.br</p>
+        </div>
+        <div class="col-4">
+          <p id="titulo-contato">Localizados em</p>
+          <p>São Paulo, SP</p>
+        </div>
+        <div class="col">
+          <img src="../img/main/facebook.png" style="height:30px; width:30px;">
+        </div>
+        <div class="col">
+          <img src="../img/main/instagram.png" style="height:30px; width:30px;">
+        </div>
+        <div class="col">
+          <img src="../img/main/twitter.png" style="height:30px; width:30px;">
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 
